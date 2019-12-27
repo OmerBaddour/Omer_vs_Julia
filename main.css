@@ -1,0 +1,27 @@
+body {
+    font-family: helvetica;
+}
+
+ul {
+    font-family: monospace;
+}
+
+li {
+    list-style: circle;
+}
+
+/*  . prefix because list is defined 
+    as a class in index.html
+*/
+.list {
+    list-style: square;
+}
+
+/*  # prefix because date is defined
+    as an id in index.html
+*/
+#date {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+}
