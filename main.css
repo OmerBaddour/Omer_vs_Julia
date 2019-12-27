@@ -1,20 +1,47 @@
 body {
     font-family: helvetica;
+    background-image: url('images/omer_vs_julia.jpg');
+    background-size: 192px 110px;
 }
 
-ul {
-    font-family: monospace;
+h1 {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    text-align: center;
+}
+
+table {
+    table-layout: fixed;
+    width: 700px;
+    margin: 0 auto;
+}
+td img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 li {
-    list-style: circle;
+    list-style-type: none;
 }
+
+li::before {
+    content: '🔫';
+    margin-left: -20px;
+}
+
+mark {
+    background-color: white;
+    color: red;
+  }
 
 /*  . prefix because list is defined 
     as a class in index.html
 */
-.list {
-    list-style: square;
+.centre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*  # prefix because date is defined
